@@ -1,0 +1,33 @@
+﻿@model SamTEK.Models.kullaniciCihazModel
+
+
+
+<a href="/home/servisOlustur/" class="btn btn-warning">Servis Oluştur</a>
+
+<h2>Cihazlarınız</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>İsim</th>
+        <th>Eposta</th>
+        <th>Cihaz</th>
+        <th>Sorun</th>
+        <th>Süreç</th>
+    </tr>
+
+    
+    @if (Model.servis != null && Model.servis.Any())
+    {
+        @foreach (var x in Model.servis)
+        {
+            var cihaz = Model.cihaz.FirstOrDefault(s => s.kullaniciID == Model.kullanici.kullaniciID);
+
+            <tr>
+                <td>@Model.kullanici.adi</td>
+                <td>@Model.kullanici.eposta</td>
+                <td>@cihaz.cihaz</td>
+                <td>@cihaz.sorun</td>
+                <td>@x.surec</td>
+            </tr>
+        }
+    }
+</table>

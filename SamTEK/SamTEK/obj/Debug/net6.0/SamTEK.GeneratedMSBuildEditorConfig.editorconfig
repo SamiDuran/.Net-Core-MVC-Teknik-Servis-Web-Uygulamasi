@@ -1,0 +1,63 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SamTEK
+build_property.RootNamespace = SamTEK
+build_property.ProjectDir = C:\Users\Sami\OneDrive\Masaüstü\Sami\üni\ödevler\221501013 Sami Duran\SamTEK\SamTEK\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Sami\OneDrive\Masaüstü\Sami\üni\ödevler\221501013 Sami Duran\SamTEK\SamTEK
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Sami/OneDrive/Masaüstü/Sami/üni/ödevler/221501013 Sami Duran/SamTEK/SamTEK/Views/Admin/servisler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cc2VydmlzbGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sami/OneDrive/Masaüstü/Sami/üni/ödevler/221501013 Sami Duran/SamTEK/SamTEK/Views/Admin/yeniServis.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5ceWVuaVNlcnZpcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sami/OneDrive/Masaüstü/Sami/üni/ödevler/221501013 Sami Duran/SamTEK/SamTEK/Views/Home/giris.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxnaXJpcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sami/OneDrive/Masaüstü/Sami/üni/ödevler/221501013 Sami Duran/SamTEK/SamTEK/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sami/OneDrive/Masaüstü/Sami/üni/ödevler/221501013 Sami Duran/SamTEK/SamTEK/Views/Home/kayit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxrYXlpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sami/OneDrive/Masaüstü/Sami/üni/ödevler/221501013 Sami Duran/SamTEK/SamTEK/Views/Home/servisKontrol.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzZXJ2aXNLb250cm9sLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sami/OneDrive/Masaüstü/Sami/üni/ödevler/221501013 Sami Duran/SamTEK/SamTEK/Views/Home/servisOlustur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzZXJ2aXNPbHVzdHVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sami/OneDrive/Masaüstü/Sami/üni/ödevler/221501013 Sami Duran/SamTEK/SamTEK/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sami/OneDrive/Masaüstü/Sami/üni/ödevler/221501013 Sami Duran/SamTEK/SamTEK/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sami/OneDrive/Masaüstü/Sami/üni/ödevler/221501013 Sami Duran/SamTEK/SamTEK/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sami/OneDrive/Masaüstü/Sami/üni/ödevler/221501013 Sami Duran/SamTEK/SamTEK/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-yww9sbbxpv

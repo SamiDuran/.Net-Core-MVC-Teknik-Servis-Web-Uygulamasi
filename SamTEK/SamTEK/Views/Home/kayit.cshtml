@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "kayit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="section">
+    <div id="sectionText">
+        <h2>Kullanıcı Oluşturma</h2>
+        <form method="POST">
+            <div>
+                <input id="kAdi" type="text" name="kAdi" placeholder="İsim Soyisim" required>
+            </div>
+            <div>
+                <input id="kAdi" type="email" name="kPosta" placeholder="E-Posta" required>
+            </div>
+            <div>
+                <input id="sifre" type="password" name="kSifre" placeholder="Şifre" required>
+            </div>
+            <div>
+                <input id="giris" type="submit" value="Kayıt ol">
+            </div>
+        </form>
+    </div>
+</div>

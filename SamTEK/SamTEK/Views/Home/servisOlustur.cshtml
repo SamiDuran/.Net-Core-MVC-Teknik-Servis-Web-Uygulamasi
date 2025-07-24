@@ -1,0 +1,58 @@
+﻿@using SamTEK.Models
+@model kullaniciCihazModel
+@{
+}
+
+<br />
+
+
+<a href="/home/servisKontrol" class="btn btn-success">Servisteki Cihazlar</a>
+<h2>Servis Oluştur</h2>
+<br />
+<br />
+
+<form method="post" action="">
+
+    <table class="table table-bordered">
+        <tr>
+            <th>İsim</th>
+            <th>Eposta</th>
+            <th>Cihaz</th>
+            <th>Sorun</th>
+        </tr>
+
+        @if (Model.cihaz != null && Model.cihaz.Any())
+        {
+            
+                @foreach (var x in Model.cihaz)
+                {
+                    <tr>
+                        <td>@Model.kullanici.adi</td>
+                        <td>@Model.kullanici.eposta</td>
+                        <td>@x.cihaz</td>
+                        <td>@x.sorun</td>
+                    </tr>
+                }
+        }
+    
+        <tr>
+            <td>@Model.kullanici.adi</td>
+            <td>@Model.kullanici.eposta</td>
+            <td><input type="text" name="cihaz" /> Cihazınız</td>
+            <td><input type="text" name="sikayet" />Sorun</td>
+        </tr>
+    </table>
+    
+    <button type="submit">Kaydet</button>
+</form>
+
+
+
+
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />

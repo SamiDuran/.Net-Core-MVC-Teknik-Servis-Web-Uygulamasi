@@ -1,0 +1,71 @@
+﻿@using SamTEK.Models
+@model kcsListModel
+@{
+}
+
+<td><a href="/admin/servisler/" class="btn btn-success">Geri Dön</a></td>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Cihaz ID</th>
+        <th>İsim</th>
+        <th>Eposta</th>
+        <th>Cihaz</th>
+        <th>Şikayet</th>
+    </tr>
+
+    @foreach (var item in Model.kcsListModels)
+    {
+        foreach (var cihaz in item.cihaz)
+        {
+            <tr>
+                <td>@cihaz.cihazID</td>
+                <td>@item.kullanici.adi</td>
+                <td>@item.kullanici.eposta</td>
+                <td>@cihaz.cihaz</td>
+                <td>@cihaz.sorun</td>
+            </tr>
+        }
+    }
+
+</table>
+
+
+<br />
+<br />
+<br />
+<h1>Yeni Servis Başlat</h1>
+<br />
+
+<form id="yeniServisFrom" method="POST">
+    <div class="yeniServisDiv">
+        Kulanici ID
+        <select name="cihazID">
+            @foreach (var veriler in Model.kcsListModels)
+            {
+                @foreach (var cihaz in veriler.cihaz)
+                {
+                    <option>@cihaz.cihazID</option>
+                }
+            }
+        </select>
+    </div>
+    <div class ="yeniServisDiv">
+        Admin ID
+        <select name="adminID">
+            <option>@news.adminIntID</option>
+        </select>
+    </div>
+    <div class="yeniServisDiv">
+        <input type="text" name="surec" placeholder="Süreç" required>
+    </div>
+    <div class="yeniServisDiv">
+        <input type="submit" value="Ekle">
+    </div>
+</form>
+<br />
+<br />
+<br />
+<br />
+

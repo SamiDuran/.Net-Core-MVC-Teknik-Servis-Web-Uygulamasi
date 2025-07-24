@@ -1,0 +1,100 @@
+﻿@using SamTEK.Models
+@model kcsListModel
+@{
+    ViewBag.Title = "servisler";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<br />
+Servis Sürecindeki Cihazlar
+<br />
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Servis ID</th>
+        <th>Kullanıcı</th>
+        <th>Cihaz</th>
+        <th>Sorun</th>
+        <th>Süreç</th>
+        <th>Düzenle</th>
+        <th>Teslim Et</th>
+    </tr>
+
+    @foreach (var item in Model.kcsListModels)
+    {
+        foreach (var cihaz in item.cihaz)
+        {
+            var servis = item.servis.FirstOrDefault(s => s.cihazID == cihaz.cihazID);
+
+            @if (servis.teslim == false)
+            {
+                <tr>
+                    <td>@servis?.servisID</td>
+                    <td>@item.kullanici.adi</td>
+                    <td>@cihaz.cihaz</td>
+                    <td>@cihaz.sorun</td>
+                    <td>@servis?.surec</td>
+                    <td>
+                        <form method="POST" action="/admin/servisDuzenle">
+                            <input type="hidden" name="cihazID" value="@cihaz?.cihazID">
+                            <input class="inputField" type="text" name="surec" value="@servis?.surec">
+                            <button class="editButton" type="submit">Düzenle</button>
+                        </form>
+                    </td>
+                    <td>
+                        <form method="POST" action="/admin/teslimEt">
+                            <input type="hidden" name="servisID" value="@servis?.servisID">
+                            <button type="submit" class="btn btn-success">Teslim</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        }
+    }
+
+    <tr>    
+        <td><a href="/admin/yeniServis/" class="btn btn-success">Ekle</a></td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+    </tr>
+
+</table>
+
+<br />
+<br />
+<br />
+Teslim Edilen Cihazlar
+<br />
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>ID</th>
+        <th>Kullanıcı</th>
+        <th>Cihaz</th>
+        <th>Sorun</th>
+        <th>Teslim</th>
+    </tr>
+
+    @foreach (var item in Model.kcsListModels)
+    {
+        foreach (var cihaz in item.cihaz)
+        {
+            var servis = item.servis.FirstOrDefault(s => s.cihazID == cihaz.cihazID);
+            @if (servis.teslim == true)
+            {
+                <tr>
+                    <td>@servis?.servisID</td>
+                    <td>@item.kullanici.adi</td>
+                    <td>@cihaz.cihaz</td>
+                    <td>@cihaz.sorun</td>
+                    <td>Teslim Edildi</td>
+                </tr>
+            }
+        }
+    }
+
+</table>

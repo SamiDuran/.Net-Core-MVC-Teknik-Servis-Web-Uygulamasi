@@ -1,0 +1,35 @@
+
+a#aKayit{
+    margin-left: 39%;
+    text-decoration: none;
+    color: rgb(165, 165, 165);
+    font-family: Arial;
+    font-size: larger;
+}
+
+h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+input#kAdi, input#sifre, input#giris, input#aKayit {
+    width: 20%;
+    margin-left: 39%;
+    margin-top: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input#giris, input#aKayit {
+    background-color: rgb(30, 1, 58);
+    color: #fff;
+    cursor: pointer;
+}
+
+input#giris:hover, input#aKayit:hover {
+    background-color: rgb(30, 1, 58);
+}
+
+
+
+

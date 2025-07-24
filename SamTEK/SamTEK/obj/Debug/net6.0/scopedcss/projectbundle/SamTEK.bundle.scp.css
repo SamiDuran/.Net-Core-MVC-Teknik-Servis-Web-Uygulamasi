@@ -1,0 +1,63 @@
+/* _content/SamTEK/Views/Shared/_Layout.cshtml.rz.scp.css */
+body[b-yww9sbbxpv] {
+    margin: 0%;
+}
+
+div#main[b-yww9sbbxpv] {
+    width: 910px;
+    margin: auto;
+}
+
+div#header[b-yww9sbbxpv] {
+    border: 1px solid transparent;
+    background: rgb(10, 1, 38);
+    height: 110px;
+}
+
+div#headerBar[b-yww9sbbxpv] {
+    margin: 15px auto 15px auto;
+    height: 80px;
+    width: 750px;
+    border: 1px solid transparent;
+}
+
+div#navBar[b-yww9sbbxpv] {
+    margin-top: 32px;
+    text-align: center;
+    word-spacing: 180px;
+}
+
+    div#navBar > a[b-yww9sbbxpv] {
+        text-decoration: none;
+        color: rgb(165, 165, 165);
+        font-family: Arial;
+        font-size: larger;
+    }
+
+
+
+
+
+div#footer[b-yww9sbbxpv] {
+    padding: 3px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#footerMail > h4[b-yww9sbbxpv] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div#footerMail > a[b-yww9sbbxpv] {
+    text-decoration: none;
+    color: rgba(51, 121, 183, 0.750)
+}
+
+div#copyright[b-yww9sbbxpv] {
+    color: rgb(100, 100, 100);
+}
+
+div#copyright > hr[b-yww9sbbxpv] {
+    max-width: 75%;
+}

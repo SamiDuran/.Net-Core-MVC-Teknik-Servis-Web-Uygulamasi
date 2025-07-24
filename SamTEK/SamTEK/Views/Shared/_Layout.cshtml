@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SamTEK</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/giris.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/SamTEK.styles.css" asp-append-version="true" />
+
+</head>
+<body>
+        <div id="header">
+            <div id="headerBar">
+                <div id="navBar">
+                    <a href="@Url.Action("Index")">AnaSayfa</a>
+                    <a href="@Url.Action("Giris")">Giriş</a>
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+        </div>
+
+       
+        @RenderBody()
+        
+        
+
+        <div id="footer">
+            <div id="footerMail">
+                <h4>İletişim adresimiz </h4>
+                <a href="mailto:samteknik@samtek.com.tr">samteknik@samtek.com.tr</a>
+            </div>
+            <div id="copyright">
+                <hr>
+                Copyright © SAMTEK 2024
+            </div>    
+        </div>
+
+            
+</body>
+</html>

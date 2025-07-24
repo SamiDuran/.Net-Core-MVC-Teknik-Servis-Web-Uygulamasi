@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sami\\OneDrive\\Masa\u00FCst\u00FC\\Sami\\\u00FCni\\\u00F6devler\\221501013 Sami Duran\\SamTEK\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5D94E6-3B49-486F-8631-D6713C98AEC0}|SamTEK\\SamTEK.csproj|c:\\users\\sami\\onedrive\\masa\u00FCst\u00FC\\sami\\\u00FCni\\\u00F6devler\\221501013 sami duran\\samtek\\samtek\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5D94E6-3B49-486F-8631-D6713C98AEC0}|SamTEK\\SamTEK.csproj|solutionrelative:samtek\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5D94E6-3B49-486F-8631-D6713C98AEC0}|SamTEK\\SamTEK.csproj|c:\\users\\sami\\onedrive\\masa\u00FCst\u00FC\\sami\\\u00FCni\\\u00F6devler\\221501013 sami duran\\samtek\\samtek\\views\\home\\kayit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C5D94E6-3B49-486F-8631-D6713C98AEC0}|SamTEK\\SamTEK.csproj|solutionrelative:samtek\\views\\home\\kayit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5D94E6-3B49-486F-8631-D6713C98AEC0}|SamTEK\\SamTEK.csproj|c:\\users\\sami\\onedrive\\masa\u00FCst\u00FC\\sami\\\u00FCni\\\u00F6devler\\221501013 sami duran\\samtek\\samtek\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5D94E6-3B49-486F-8631-D6713C98AEC0}|SamTEK\\SamTEK.csproj|solutionrelative:samtek\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5D94E6-3B49-486F-8631-D6713C98AEC0}|SamTEK\\SamTEK.csproj|c:\\users\\sami\\onedrive\\masa\u00FCst\u00FC\\sami\\\u00FCni\\\u00F6devler\\221501013 sami duran\\samtek\\samtek\\views\\admin\\servisler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C5D94E6-3B49-486F-8631-D6713C98AEC0}|SamTEK\\SamTEK.csproj|solutionrelative:samtek\\views\\admin\\servisler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5D94E6-3B49-486F-8631-D6713C98AEC0}|SamTEK\\SamTEK.csproj|c:\\users\\sami\\onedrive\\masa\u00FCst\u00FC\\sami\\\u00FCni\\\u00F6devler\\221501013 sami duran\\samtek\\samtek\\views\\admin\\yeniservis.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C5D94E6-3B49-486F-8631-D6713C98AEC0}|SamTEK\\SamTEK.csproj|solutionrelative:samtek\\views\\admin\\yeniservis.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "kayit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sami\\OneDrive\\Masa\u00FCst\u00FC\\Sami\\\u00FCni\\\u00F6devler\\221501013 Sami Duran\\SamTEK\\SamTEK\\Views\\Home\\kayit.cshtml",
+              "RelativeDocumentMoniker": "SamTEK\\Views\\Home\\kayit.cshtml",
+              "ToolTip": "C:\\Users\\Sami\\OneDrive\\Masa\u00FCst\u00FC\\Sami\\\u00FCni\\\u00F6devler\\221501013 Sami Duran\\SamTEK\\SamTEK\\Views\\Home\\kayit.cshtml",
+              "RelativeToolTip": "SamTEK\\Views\\Home\\kayit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T10:26:51.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Sami\\OneDrive\\Masa\u00FCst\u00FC\\Sami\\\u00FCni\\\u00F6devler\\221501013 Sami Duran\\SamTEK\\SamTEK\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SamTEK\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Sami\\OneDrive\\Masa\u00FCst\u00FC\\Sami\\\u00FCni\\\u00F6devler\\221501013 Sami Duran\\SamTEK\\SamTEK\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SamTEK\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAQwEwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T19:03:16.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Sami\\OneDrive\\Masa\u00FCst\u00FC\\Sami\\\u00FCni\\\u00F6devler\\221501013 Sami Duran\\SamTEK\\SamTEK\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "SamTEK\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Sami\\OneDrive\\Masa\u00FCst\u00FC\\Sami\\\u00FCni\\\u00F6devler\\221501013 Sami Duran\\SamTEK\\SamTEK\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "SamTEK\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowBAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T18:54:00.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "servisler.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sami\\OneDrive\\Masa\u00FCst\u00FC\\Sami\\\u00FCni\\\u00F6devler\\221501013 Sami Duran\\SamTEK\\SamTEK\\Views\\Admin\\servisler.cshtml",
+              "RelativeDocumentMoniker": "SamTEK\\Views\\Admin\\servisler.cshtml",
+              "ToolTip": "C:\\Users\\Sami\\OneDrive\\Masa\u00FCst\u00FC\\Sami\\\u00FCni\\\u00F6devler\\221501013 Sami Duran\\SamTEK\\SamTEK\\Views\\Admin\\servisler.cshtml",
+              "RelativeToolTip": "SamTEK\\Views\\Admin\\servisler.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAB4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T18:54:01.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "yeniServis.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sami\\OneDrive\\Masa\u00FCst\u00FC\\Sami\\\u00FCni\\\u00F6devler\\221501013 Sami Duran\\SamTEK\\SamTEK\\Views\\Admin\\yeniServis.cshtml",
+              "RelativeDocumentMoniker": "SamTEK\\Views\\Admin\\yeniServis.cshtml",
+              "ToolTip": "C:\\Users\\Sami\\OneDrive\\Masa\u00FCst\u00FC\\Sami\\\u00FCni\\\u00F6devler\\221501013 Sami Duran\\SamTEK\\SamTEK\\Views\\Admin\\yeniServis.cshtml",
+              "RelativeToolTip": "SamTEK\\Views\\Admin\\yeniServis.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwBQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T18:54:01.095Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

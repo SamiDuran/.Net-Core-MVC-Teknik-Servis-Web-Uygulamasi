@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "giris";
+    ViewBag.PageCSS = "giris.css";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="section">
+    <div id="sectionText">
+        <h2>Kullanıcı Girişi</h2>
+        <form method="post">
+            <div>
+                <input id="kAdi" type="text" name="kAdi" placeholder="Eposta" required>
+            </div>
+            <div>
+                <input id="sifre" type="password" name="kSifre" placeholder="Şifre" required>
+
+            </div>
+            <div>
+                <input id="giris" type="submit" value="Giriş Yap">
+            </div>
+        </form>
+        <div>
+            <a id="aKayit" href="@Url.Action("Kayit")">Yeni hesap oluşturmak için tıklanıyınız</a>
+        </div>
+    </div>
+</div>
